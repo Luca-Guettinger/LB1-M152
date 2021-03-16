@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="form-group">
+    <div class="tab-content">
+      <div id="Intro" class="tab-pane fade in active">
+
+        <p>Umgebung für die Integration von Multimedia auf einem Webserver. </p>
+
+        <h2>Verwendete Produkte</h2>
+
+        <ul>
+          <li><a href="https://httpd.apache.org/">Apache Web Server</a></li>
+          <li><a href="https://www.php.net/">PHP</a></li>
+          <li><a href="https://wiki.ubuntuusers.de/vsftpd/">FTP Server</a></li>
+          <li><a href="https://wiki.ubuntuusers.de/Bash/">Bash</a></li>
+          <li><a
+            href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6">PowerShell
+            on Linux</a></li>
+        </ul>
+      </div>
+      <!--  Access -->
+      <div id="Accessing" class="tab-pane fade">
+        <h2>Zugriff auf den Server</h2>
+        <p><strong>User / Password</strong></p>
+        <p>Der User ist <code>ubuntu</code>, dass Password steht in der Datei <a href="/data/.ssh/passwd">/data/.ssh/passwd</a>.
+        </p>
+        <p>Einloggen mittels</p>
+        <pre><code>ssh ubuntu@10.1.45.13</code></pre>
+        <p><strong>SSH</strong></p>
+        <p>Auf der Server kann mittels <a href="https://wiki.ubuntuusers.de/SSH/">ssh</a> zugegriffen werden.</p>
+        <p>Der private SSH Key ist auf dem Installierten Server unter <a href="/data/.ssh/id_rsa">/data/.ssh/id_rsa</a>
+          zu finden. Downloaden und dann wie folgt auf den Server einloggen:</p>
+        <pre><code>ssh -i id_rsa ubuntu@10.1.45.13</code></pre>
+        <p><strong>Hinweis</strong>: Windows User verwenden <a href="https://www.bitvise.com/">bitvise</a> und legen den
+          privaten SSH Key im "Client key manager" ab.</p>
+      </div>
+    </div>
+  </div>
