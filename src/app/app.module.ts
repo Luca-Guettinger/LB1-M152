@@ -16,6 +16,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AnimationenComponent } from './animationen/animationen.component';
 import { AboutComponent } from './about/about.component';
 import { SvgAnimationsComponent } from './svg-animations/svg-animations.component';
+import { CanvasComponent } from './canvas/canvas.component';
+import { ScrollComponent } from './scroll/scroll.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SvgAnimationsComponent } from './svg-animations/svg-animations.componen
     NotFoundComponent,
     AnimationenComponent,
     AboutComponent,
-    SvgAnimationsComponent
+    SvgAnimationsComponent,
+    CanvasComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule,
